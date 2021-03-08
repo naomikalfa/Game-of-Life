@@ -146,15 +146,3 @@ while True:
                     zeros_for_a_new_epoch[y][x] = 0
 
     universe = zeros_for_a_new_epoch
-
-    if random.randrange(0, 100) > 80:
-        for i in range(0, 100):
-            p = random.randrange(0, len(universe))
-            q = random.randrange(0, len(universe[0]))
-            universe[p][q] = 1
-
-    if random.randrange(0, 100) > 80:
-        for i in range(0, 100):
-            p = random.randrange(0, len(universe))
-            q = random.randrange(0, len(universe[0]))
-            universe[p][q] = 0
